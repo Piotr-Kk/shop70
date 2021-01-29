@@ -1,0 +1,11 @@
+<div class="asset-wrapper">
+  <img src="{{ imgUrl }}">
+  <div class="name">{{ name }}</div>
+  <div class="price">{{ price }}zł</div>
+  <div class="buy-buttons">
+    <button (click)="onDecrease()" >-</button>
+    <input class="form-control" [value]="inputValue" pattern="[0-9]*"
+      (keyup)="onKeyUp($event)">
+    <button (click)="onIncrease()">+</button>
+  </div>
+</div>

@@ -1,0 +1,39 @@
+:host {
+  min-width: 270px;
+  height: 300px;
+  background-color: rgb(209, 122, 122);
+  margin: 0 10px 60px;
+}
+
+.asset-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  margin: 20px auto 15px;
+  height: 150px;
+  width: 170px;
+}
+
+.name {
+  margin: auto;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.price {
+  margin: 5px auto 15px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.buy-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  input {
+    max-width: 50px;
+  }
+}
